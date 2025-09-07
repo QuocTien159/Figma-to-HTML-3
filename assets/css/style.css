@@ -505,7 +505,6 @@ a {
 /* ============================== blog ========================================== */
 .blog {
   padding: 85px 0;
-  background-color: cyan;
 }
 
 .blog__inner {
@@ -595,4 +594,33 @@ a {
 }
 .blog-item__more:hover {
   color: #2e80ce;
+}
+
+/* ============================== blog ========================================== */
+.appointment {
+  margin: 85px 0;
+}
+
+.appointment__inner {
+  padding: 100px 178px;
+  background-color: #f6fbff;
+  text-align: center;
+}
+
+.appointment__heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background-color: #2e80ce;
+  margin: 18px auto 0;
+}
+
+.appointment__desc {
+  margin: 18px auto 0;
+  max-width: 617px;
+}
+
+.appointment__btn {
+  margin-top: 18px;
 }
